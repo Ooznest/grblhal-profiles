@@ -1,0 +1,126 @@
+{
+  "machine": {
+    "default_driver": "ESP32",
+    "default_board": "BOARD_OOZNEST_CNC",
+    "default_symbols": {
+      "Y_AUTO_SQUARE": 1,
+      "MODBUS_ENABLE": 2,
+      "USB_SERIAL_CDC": 1,
+      "WIFI_ENABLE": 1,
+      "ETHERNET_ENABLE": 1,
+      "WEBUI_ENABLE": 3,
+      "HTTP_ENABLE": 1,
+      "PROBE_ENABLE": 1,
+      "TOOLSETTER_ENABLE": 1,
+      "MACROS_ENABLE": 1,
+      "N_MACROS": 1,
+      "EVENTOUT_ENABLE": 1,
+      "SDCARD_ENABLE": 2,
+      "NETWORKING_ENABLE": 1,
+      "TELNET_ENABLE": 1,
+      "WEBSOCKET_ENABLE": 1,
+      "FTP_ENABLE": 1,
+      "LITTLEFS_ENABLE": 1,
+      "CONTROL_ENABLE": 0,
+      "HC595_ENABLE": 1,
+      "RGB_LED_ENABLE": 2,
+      "MOTOR_FAULT_ENABLE": 1,
+      "N_SPINDLE": 3,
+      "SPINDLE0_ENABLE": 6,
+      "SPINDLE1_ENABLE": 12,
+      "SPINDLE2_ENABLE": 14
+    },
+    "setting_defaults": {
+      "DEFAULT_STEPPER_IDLE_LOCK_TIME": 255,
+      "DEFAULT_ENABLE_SIGNALS_INVERT_MASK": 0,
+      "DEFAULT_DIR_SIGNALS_INVERT_MASK": 2,
+      "DEFAULT_X_CURRENT": 1600,
+      "DEFAULT_Y_CURRENT": 1600,
+      "DEFAULT_Z_CURRENT": 1600,
+      "DEFAULT_X_STEPS_PER_MM": 400,
+      "DEFAULT_Y_STEPS_PER_MM": 400,
+      "DEFAULT_Z_STEPS_PER_MM": 400,
+      "DEFAULT_X_MAX_RATE": 2500,
+      "DEFAULT_Y_MAX_RATE": 2500,
+      "DEFAULT_Z_MAX_RATE": 2500,
+      "DEFAULT_X_ACCELERATION": 150,
+      "DEFAULT_Y_ACCELERATION": 150,
+      "DEFAULT_Z_ACCELERATION": 150,
+      "DEFAULT_A_ACCELERATION": 150,
+      "DEFAULT_X_MAX_TRAVEL": 270,
+      "DEFAULT_Y_MAX_TRAVEL": 270,
+      "DEFAULT_Z_MAX_TRAVEL": 88,
+      "DEFAULT_SOFT_LIMIT_ENABLE": 1,
+      "DEFAULT_HARD_LIMIT_ENABLE": 0,
+      "DEFAULT_HOMING_ENABLE": 1,
+      "DEFAULT_HOMING_SINGLE_AXIS_COMMANDS": 1,
+      "DEFAULT_HOMING_PULLOFF": 5,
+      "DEFAULT_HOMING_CYCLE_0": 4,
+      "DEFAULT_HOMING_CYCLE_1": 1,
+      "DEFAULT_HOMING_CYCLE_2": 2,
+      "DEFAULT_HOMING_SEEK_RATE": 1500,
+      "DEFAULT_HOMING_FEED_RATE": 100,
+      "DEFAULT_PROBE_SIGNAL_INVERT": 1,
+      "DEFAULT_CONTROL_SIGNALS_INVERT_MASK": 256,
+      "DEFAULT_RGB_STRIP0_LENGTH": 3,
+      "DEFAULT_PWM_SPINDLE1_IGNORE_DELAYS": 1,
+      "DEFAULT_PWM_SPINDLE_DISABLE_LASER_MODE": 1
+    }
+  },
+  "variants": [
+    {
+      "name": "WorkBee Z1+ 500x500",
+      "URL": "https://ooznest.co.uk/product/workbee-z1-plus/",
+      "setting_defaults": {
+        "DEFAULT_X_MAX_TRAVEL": 270,
+        "DEFAULT_Y_MAX_TRAVEL": 270,
+        "DEFAULT_Z_MAX_TRAVEL": 88
+      }
+    },
+    {
+      "name": "WorkBee Z1+ 750x750",
+      "URL": "https://ooznest.co.uk/product/workbee-z1-plus/",
+      "setting_defaults": {
+        "DEFAULT_X_MAX_TRAVEL": 520,
+        "DEFAULT_Y_MAX_TRAVEL": 520,
+        "DEFAULT_Z_MAX_TRAVEL": 88
+      }
+    },
+    {
+      "name": "WorkBee Z1+ 750x1000",
+      "URL": "https://ooznest.co.uk/product/workbee-z1-plus/",
+      "setting_defaults": {
+        "DEFAULT_X_MAX_TRAVEL": 520,
+        "DEFAULT_Y_MAX_TRAVEL": 770,
+        "DEFAULT_Z_MAX_TRAVEL": 88
+      }
+    },
+    {
+      "name": "WorkBee Z1+ 1000x1000",
+      "URL": "https://ooznest.co.uk/product/workbee-z1-plus/",
+      "setting_defaults": {
+        "DEFAULT_X_MAX_TRAVEL": 770,
+        "DEFAULT_Y_MAX_TRAVEL": 770,
+        "DEFAULT_Z_MAX_TRAVEL": 88
+      }
+    },
+    {
+      "name": "WorkBee Z1+ 1000x1500",
+      "URL": "https://ooznest.co.uk/product/workbee-z1-plus/",
+      "setting_defaults": {
+        "DEFAULT_X_MAX_TRAVEL": 770,
+        "DEFAULT_Y_MAX_TRAVEL": 1270,
+        "DEFAULT_Z_MAX_TRAVEL": 88
+      }
+    },
+    {
+      "name": "WorkBee Z1+ 1500x1500",
+      "URL": "https://ooznest.co.uk/product/workbee-z1-plus/",
+      "setting_defaults": {
+        "DEFAULT_X_MAX_TRAVEL": 1270,
+        "DEFAULT_Y_MAX_TRAVEL": 1270,
+        "DEFAULT_Z_MAX_TRAVEL": 88
+      }
+    }
+  ]
+}

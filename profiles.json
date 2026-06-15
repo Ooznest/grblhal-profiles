@@ -1,0 +1,11 @@
+{
+  "machines": [
+    {
+      "name": "Ooznest WorkBee Z1+",
+      "profileURL": "https://github.com/ooznest/grblhal-profiles/blob/main/profiles/workbeez1plus.json",
+      "URL": "https://ooznest.co.uk/",
+      "type": "router",
+      "description": "Ooznest WorkBee Z1+ CNC Machine"
+    }
+  ]
+}
